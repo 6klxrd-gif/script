@@ -1,5 +1,4 @@
-# script
-awaw
+
 -- Loader Script ("YOUR_STAND_LOADER")
 
 getgenv().Owner = "DoWeNeedMen4"
