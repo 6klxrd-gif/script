@@ -1,20 +1,3 @@
-
--- Loader Script ("YOUR_STAND_LOADER")
-
-getgenv().Owner = "DoWeNeedMen4"
-
-getgenv().Configuration = {
-    ['CrewID'] = 32570691,
-    ['AttackDistance'] = 75,
-    ['SafeLocation'] = Vector3.new(0, 100, 0),
-    ['MaskToBuy'] = "Skull",
-    ['GunModes'] = {"rifle","aug","lmg"},
-    ['AttackCooldown'] = 0.3,
-    ['AutoMask'] = true,
-    ['AutoSave'] = true,
-    ['Prefix'] = ".", -- your command prefix
-}
-
 -- Stand logic (embedded, self-contained)
 do
     local Players = game:GetService("Players")
